@@ -1,4 +1,4 @@
-package clear;
+package clear01;
 
 public class Test10718 {
     public static void main(String[] args){

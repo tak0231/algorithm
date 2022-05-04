@@ -1,4 +1,4 @@
-package clear;
+package clear01;
 import java.util.Scanner;
 
 public class Test1000 {

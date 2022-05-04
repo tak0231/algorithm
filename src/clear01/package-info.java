@@ -1,4 +1,4 @@
-package clear;
+package clear01;
 
 /*
  	- 풀이 완료한 알고리즘들
