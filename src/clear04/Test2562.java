@@ -1,8 +1,8 @@
-package main;
+package clear04;
 
 import java.util.Scanner;
 
-public class Main {
+public class Test2562 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		
