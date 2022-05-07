@@ -2,7 +2,7 @@ package clear03;
 
 import java.util.Scanner;
 
-public class Test11021 {
+public class Test11022 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -12,7 +12,7 @@ public class Test11021 {
 			int A = sc.nextInt();
 			int B = sc.nextInt();
 			int result = A+B;
-			System.out.println("Case #"+String.valueOf(i)+": "+result);
+			System.out.println("Case #"+String.valueOf(i)+": "+A+" + "+B+" = "+result);
 		}
 	}
 }
