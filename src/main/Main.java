@@ -6,14 +6,16 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		int[] a = new int[n];
+		int N = sc.nextInt();
+		String str = sc.next();
+		String[] arr = str.split("");
+		int sum = 0;
 		
-		for(int i=0;i<n;i++) {
-			a[i]=sc.nextInt();
+		for(int i=0;i<N;i++) {
+			sum+=Integer.parseInt(arr[i]);
 		}
-
-		Test test = new Test();
-		System.out.println(test.sum(a));
+		
+		System.out.println(sum);
+		
 	}
 }
